@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 48px);
+  grid-template-rows: repeat(5, 48px);
+}
+
+.cell {
+  background-color: none;
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--white);
+}
+
+.cellActive {
+  background-color: var(--blue);
+}
+
+.rotateButton {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 8px;
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
